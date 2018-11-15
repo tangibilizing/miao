@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>块元素</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head> 
+<body>
+    <div class="header">
+        <p>hello world 请调整浏览器窗口大小查看效果</p>
+    </div>
+
+    <div class="content">
+    <div class="text">页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px 页面主体 宽度600px</div>
+
+     <ul class="ul1">
+     <li>宽180高40(包含边框)</li>
+     <li>水平间隙30px</li>
+     <li>垂直间隙15px</li>
+     <li>边框宽度3px</li>
+     <li>产品</li>
+     <li>产品</li>
+     <li>产品</li>
+     <li>产品</li>
+     <li>产品</li>
+     <li>产品</li>
+     <li>产品</li>
+     <li>产品</li>
+     
+     </ul>
+    <ul class="ul2">
+     <li>link</li>
+     <li>link</li>
+     <li>link</li>
+     <li>link</li>
+     <li>link</li>
+    </ul>   
+    </div>
+    
+    <footer>&copy版权所有
+        <br>
+    本页所有布局均使用块元素</footer>
+   
+    
+    <style>
+    body{
+        margin: 0px;
+        
+        
+    }
+    .header{
+        background-color: #000;
+        color: white;
+        margin-bottom: 15px;
+
+    }
+    .header p {
+        width: 600px;
+        margin: 0px calc(50% - 300px)
+    }
+    .content{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    .content .text{
+        width: 600px;
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    .content .ul1 {
+     list-style-type: none;
+     width: 600px;
+     padding:0px;
+     text-align: center; 
+    }
+    .content .ul1 li{
+    background-color:pink;
+    box-sizing: border-box;        
+
+    width: 180px;
+    height:40px;
+    border: black solid 3px;
+    line-height: 34px;
+    
+    margin: 15px 30px 15px 0px;
+
+    }
+    .content .ul1 li:hover{
+        background-color: red;
+    }
+    
+    .content .ul1 li:nth-child(n+5){
+        margin-left: 210px;
+
+
+     }
+    .content .ul1 li:nth-child(n+9) {
+        margin-left: 420px;
+
+    }
+    .content .ul1 li:nth-child(4n+5){
+        margin-top: -220px;
+    }
+
+    
+    .content .ul2{
+    list-style-type: none;
+    padding:0px;    
+    overflow: hidden;
+
+
+    
+    }
+    .content .ul2 li {
+    border-bottom: black dotted 1px;
+    margin-bottom: -1px;
+    
+    }
+
+
+
+    footer{
+        text-align: center;
+        background-color: violet;
+        margin-top: 15px;
+    }
+    </style>
+
+
+</body>
+</html>
