@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+<div class="wrapper">
+<section class ="a1">hello</section>
+<section class ="a2">bonjour
+    <h1>head</h1>
+    <main>mainmain</main>
+</section>
+<section class ="a3">ciao</section>
+<section class ="a4">hola</section>
+</div>
+
+
+<style>
+    * {
+        box-sizing: inherit;
+    }
+     
+   html, body {
+       height: 100%;
+       margin: 0px;
+       box-sizing: border-box;
+    }
+    .wrapper{ 
+        height: 100%;
+        font-size: 0;
+
+
+    }
+    .wrapper > * {
+        
+        display: inline-block;
+        height: 100%;
+        width: 20%;
+        font-size: initial;
+        border-right: solid 1px ;
+        vertical-align: top;
+    }
+    .a2 {
+       width:40%;
+       background-color: green;
+   }
+    
+    .a2 h1{
+        height: 80px;
+        margin: 0;
+    }
+    .a2 main{
+        height: calc (100% - 80px)
+    }
+    .a4 {
+        border-right: none; 
+        background-color: blue;
+    } 
+
+    .a1{
+        background-color: red;
+    } 
+
+    .a3{
+        background-color:yellow;
+    }
+</style>
+
+
+
+    
+</body>
+</html>
