@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>qq-mail-position</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+
+
+<div >
+   <header> header
+
+   </header>
+    
+  <main>
+    <aside> sidebar
+
+    </aside>
+    <section>  sectionbar
+
+    </section>
+    
+  </main>
+
+
+
+</div>
+    
+
+
+
+    
+<style>
+    html,body{
+        margin:0px;
+    }
+
+   header{ 
+      height: 100px;
+      background-color: red;
+      
+   } 
+   
+    main { 
+        position: fixed;
+        height:calc(100% - 100px); 
+        right: 0px;
+        left: 0px;
+        bottom:0px;
+        background-color:green;
+   }
+
+   aside {
+       position:absolute;
+       width:20%; 
+       height: 100%;
+       background-color:blue;
+
+   }
+   section {
+       position: absolute;
+       width:80%;
+       left: 20%;
+       height: 100%;
+       background-color: orange;
+   }   
+
+</style>
+
+</body>
+</html>
