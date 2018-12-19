@@ -522,7 +522,10 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
 
 
 <script id="ch0104/14" type='1.4.14'>
+    var x = Number (prompt("请输入一个数字")) 
+    if (){
 
+    }
     
     
 
@@ -573,7 +576,7 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
     var x = Number (prompt("请输入一个数字")) 
     var y = Number (prompt("请输入一个数字")) 
 
-    if ( (-1 <= x <=1) &&(-1 <= y <=1)){
+    if ( (-1 <= x <=1) && (-1 <= y <=1)){
           console.log("yes")
     } else {
         console.log("no")
@@ -584,9 +587,28 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
 
 
 
-<script id="ch0104/19" type='1.4.19'>
+<script id="ch0104/19" xtype='1.4.19'>
+  
+    var x = Number (prompt("请输入一个数字")) 
+    var y = Number (prompt("请输入一个数字")) 
+    var z = prompt("请输入一个操作符") 
+     if (z =="+"){ 
+     console.log( x+y );
+    } else if (z == "-" ){
+        console.log(x-y);
+        } else if (z == "*"){
+            console.log(x*y);
+            } else if (z == "/"){
+                if( y == 0 ){
+                  console.log("Divided by zero!");
+                    } else
+                console.log( x/y);
+                 } else {
+                     console.log("Invalid operator!");
+                     
+                 }
 
-    
+
     
 
 
