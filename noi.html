@@ -321,9 +321,9 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
 
 <script id="ch0104/02" type='1.4.2'>
     
-    var n = + prompt("please enter a floating number") 
+    var n = Number (prompt("please enter a floating number")) 
     
-    console.log(parseInt(n));
+    console.log(Math.abs(n));
     
 </script>
 
@@ -341,8 +341,78 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
     
     
 </script>
+<!--
+<script id="ch0104/04" xtype='1.4.4'>
+    
+    var m = Number (prompt("请输入被除数")) 
+    var n = Number (prompt("请输入除数")) 
+    
+        
+    console.log(parseInt(m/n),m%n);
+    
+    
+</script>
+-->
+<script id="ch0104/05" type='1.4.5'>
+    
+    var m = Number (prompt("请输入数字")) 
+    var n = Number (prompt("请输入数字")) 
+    
+    if (m>n){
+        console.log(">");
+        }
+        else if (m==n ){
+            console.log("=");
+            
+        } else if (m<n ){
+           console.log("<");
+           
+        }
+</script>
+
+<script id="ch0104/06" type='1.4.6'>
+    
+    var n = Number (prompt("请输入数字")) 
+    
+      if (n >= 10 && n <=99){
+          console.log(1);
+          
+         } else {
+             console.log(0);
+             
+         }
+        
+</script>
+
+<script id="ch0104/07" type='1.4.7'>
+    
+    var m = Number (prompt("请输入幸运瓶盖个数")) 
+    var n = Number (prompt("请输入鼓励瓶盖个数")) 
+    if (m >=10 || n >=20 ){
+        console.log(1);
+        
+    } else {
+        console.log(0);
+        
+    }
+</script>
 
 
+<script id="ch0104/08" xtype='1.4.8'>
+    
+    var n = Number (prompt("请输入一个数字")) 
+     
+  if (n%3===0 && n%5===0){
+       console.log("YES");
+       
+  } else{
+      console.log("NO");
+      
+  }
+
+
+    
+</script>
 
 
 
