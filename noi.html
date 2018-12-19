@@ -452,7 +452,7 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
 
 </script>
 
-<script id="ch0104/11" xtype='1.4.11'>
+<script id="ch0104/11" type='1.4.11'>
     
     
     var n = Number (prompt("请输入星期几, 数值1-7")) 
@@ -470,8 +470,42 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
     
 </script>
 
+<script id="ch0104/15" type='1.4.15'>
+ 
+    var l = Number (prompt("请输入一个数字")) 
+    var m = Number (prompt("请输入一个数字")) 
+    var n = Number (prompt("请输入一个数字")) 
 
+    console.log(Math.max(l,m,n))
 
+</script>
+
+<script id="ch0104/16" type='1.4.16'>
+ 
+    var a = Number (prompt("请输入一个数字 a")) 
+    var b = Number (prompt("请输入一个数字 b")) 
+    var c = Number (prompt("请输入一个数字 c")) 
+
+    if (a+b>c&&a+c<b&&b+c>a){
+        console.log("yes")
+
+    }
+</script>
+
+<script id="ch0104/17" type='1.4.17'>
+ 
+    var n = Number (prompt("请输入一个年份")) 
+
+    if ((n /400 === 0) || (n / 4 ===0 && n % 100))
+    {
+      console.log ("Y")
+    } else {
+        console.log("N")
+    }
+
+    
+
+</script>
 
 
 </body>
