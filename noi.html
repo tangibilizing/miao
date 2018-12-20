@@ -669,7 +669,7 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
 
           
       }
-        console.log((y/n).toFixed(2) );
+    console.log((y/n).toFixed(2) );
         
      
 </script>
@@ -700,7 +700,7 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
         y =  y + x
         i= i +1 
     }    
-      console.log ( (y /n).toFixed(4) )
+    console.log ( (y /n).toFixed(4) )
 
 </script>
     
@@ -712,8 +712,6 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
         var x = + prompt (" enter the wanted number")
         y = y+x  
         i = i+ 1 
-        
-        
     } 
     console.log(y,(y/n).toFixed(5) )
   
@@ -726,18 +724,31 @@ console.log(lettera,"",numfix,"",numfloata.toFixed(6),"",numfloatb.toFixed(6));
     var y= + prompt("enter the number")
     for (var i = 1 ; i < n; i++ ) {
         var x = +prompt("enter the score")
-         if (x > y) {
-            y = x
-         }  else {
-             y = y 
-         }
+            if (x > y) {
+                y = x
+        }      else {
+                y = y 
+            }
     }
-        console.log(y)
+    console.log(y)
     
 </script>
 
 <script id="ch0105/06" type='1.5.6'>
-
+    var n= + prompt("enter a number")
+    var y= + prompt("enter a number")
+    var z= + prompt("enter a number")
+    for (var i = 2 ; i < n; i++ ) {
+        var x = +prompt("enter the score")
+            if (x > y) {
+                y = x
+        }       else if (x < z) {
+                    z = x 
+            }       else {
+                        y = y 
+                } 
+    }              
+    console.log(y - z)
     
 </script>
 
