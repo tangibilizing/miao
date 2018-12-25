@@ -923,7 +923,23 @@ for(var i = 0; i < 19 ; i++ ){
     
 </script>
 <script id="ch0105/18" type='1.5.18'>
+var n =+ prompt()
+var a =+ prompt()
+var b =+ prompt()
+for (var i = 0; i < n-1 ; i++){
+    
+    var x =+ prompt()
+    var y =+ prompt()
+    
+    if (( y/x- b/a) > 5/100 ){
+        console.log("better")
+    } else if (( b/a- y/x) > 5/100){
+        console.log("worse")
+    } else {
+        console.log("same")
+    }
 
+}
     
 </script>
 <script id="ch0105/19" type='1.5.19'>
@@ -932,18 +948,62 @@ for(var i = 0; i < 19 ; i++ ){
 </script>
 <script id="ch0105/20" type='1.5.20'>
 
-    
+
+
 </script>
 <script id="ch0105/21" type='1.5.21'>
+    var n =+ prompt()
+    if ( n ===1 ){
+        console.log("End")
+    }
 
-    
+    else if (n % 2 ===1 ) {
+    var m = n*3+1 
+    console.log(n+"*3"+"+1"+"="+m);
+    while ( m % 2 ===0  ){
+        m =  m /2 
+        console.log(m*2+"/2"+"="+m)
+              
+        } 
+        if (m ===1) {
+        console.log("End")
+            } 
+          
+        
+    }   else {
+            while ( n % 2 ===0 ){
+            n =  n /2 
+            console.log(n*2+"/2"+"="+n)
+    } 
+        if (n ===1) {
+           console.log("End")
+         } 
+}
+
+
+
+     
+        
+
 </script>
 <script id="ch0105/22" type='1.5.22'>
-
+  
     
 </script>
 <script id="ch0105/23" type='1.5.23'>
+    var m =+ prompt()
+    var n =+ prompt()
+    var z = 0  
+         for ( var i =0; i < n; i++){
+          var t  =+ prompt()
+          
+          if (  t < m ) {
 
+            z = z + 1
+          m = m-t  
+              
+          }
+         } console.log(n-z)
     
 </script>
 <script id="ch0105/24" type='1.5.24'>
